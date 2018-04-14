@@ -3,4 +3,5 @@
     <string name="textCabecalho">Escolha um número de 0 a 10</string>
     <string name="text_altera">Nenhum Resultado</string>
     <string name="btn">Gerar Número</string>
+    <string name="btnProx">Proxima Aplicação</string>
 </resources>

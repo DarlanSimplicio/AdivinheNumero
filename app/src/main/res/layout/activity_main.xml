@@ -7,6 +7,7 @@
     tools:context="com.example.dscodes.jogoadvinha.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -14,9 +15,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:padding="15dp"
-            android:text="@string/textCabecalho"
-        android:textSize="@dimen/text_tam"
+        android:text="@string/textCabecalho"
 
+        android:textSize="@dimen/text_tam"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -62,5 +63,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/btnProxima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+
+
+        android:fontFamily="casual"
+        android:text="@string/btnProx"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dim_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
 
 </android.support.constraint.ConstraintLayout>
